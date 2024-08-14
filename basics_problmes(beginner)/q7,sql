@@ -1,0 +1,3 @@
+/*WTQD EMPLOYEE NAME AND DESIGNATION OF THE EMPLOYEES*/
+select ename , job
+from emp;

@@ -1,0 +1,5 @@
+-- WAQTD NAME AND SAL ALONG WITH HIS ANNUAL
+-- SALARY IF THE ANNUAL SALARY IS MORE THAN 12000
+select ename,sal*12 as anualsal
+from emp
+where sal*12 >12000;

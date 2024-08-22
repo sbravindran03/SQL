@@ -1,0 +1,5 @@
+-- WAOTD DETAILS OF EMPLOYEES WORKING AS AN N
+-- ANALYST
+select *
+from emp
+where job ='ANALYST';

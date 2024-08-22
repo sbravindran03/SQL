@@ -1,0 +1,5 @@
+-- .WAQTD DETAILS OF EMPS EARNING MORE THAN 2000
+-- RUPEES PER MONTH
+select *
+from emp
+where sal>2000;

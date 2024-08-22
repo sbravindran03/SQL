@@ -1,0 +1,5 @@
+-- .WAQTD DETAILS OF EMPLOYEES HAVING COMMISSION
+-- MORE THAN SALARY
+select *
+from emp
+where sal>comm;

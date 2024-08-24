@@ -1,0 +1,7 @@
+-- .WAQTD NAMES OF EMPLOYEES ALONG WITH
+-- ANNUAL SALARY FOR THE EMPLOYEES WORKING
+-- AS MANAGER OR CLERK INTO DEPT 10 OR 30
+select emp.*,sal*12 as annualsal
+from emp
+where job in ('MANAGER','CLERK')
+and deptno in (10,30);

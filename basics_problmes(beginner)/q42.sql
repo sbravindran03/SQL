@@ -1,0 +1,5 @@
+-- WAQTD DETAILS OF EMPLOYEES WORKING IN
+-- DEPT 20 OR 30.
+SELECT *
+from emp
+where deptno in(20,30);

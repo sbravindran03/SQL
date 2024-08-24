@@ -1,0 +1,5 @@
+-- WAQTD ALL THE DETAILS OF THE EMP WORKING
+-- IN DEPT 30 OR AS ANALYST
+select *
+from emp
+where job='ANALYST';

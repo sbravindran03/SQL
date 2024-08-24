@@ -1,0 +1,6 @@
+-- WAQTD DETAILS OF THE EMPLOYEES WORKING
+-- AS CLERK AND EARNING LESS THAN 1500
+select *
+from emp
+where job='CLERK'
+and sal< 1500;

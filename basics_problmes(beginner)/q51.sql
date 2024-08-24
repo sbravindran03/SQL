@@ -1,0 +1,6 @@
+-- WAQTD DETAILS OF EMPLOYEES EARNING MORE
+-- THAN 1250 BUT LESS THAN 3000
+select *
+from emp
+where sal >1250
+and sal<3000;

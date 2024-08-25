@@ -1,0 +1,9 @@
+-- ) DISPLAY ALL THE EMPLOYEE WHO ARE
+-- SALESMAN'S HAVING 'E' AS THE LAST BUT ONE
+-- CHARACTER IN ENAME BUT SALARY HAVING EXACTLY
+-- 4 CHARACTER
+select *
+from emp
+where job ='SALESMAN'
+and substr(ename,-2,1)='E'
+AND length(sal) =4;

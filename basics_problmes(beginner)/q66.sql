@@ -1,0 +1,9 @@
+-- 11) LIST ALL THE SALESMEN IN DEPT 30 WITH SAL MORE
+-- THAN 2450
+-- 11) LIST ALL THE SALESMEN IN DEPT 30 WITH SAL MORE
+-- THAN 2450
+select *
+from emp
+where job ='SALESMEN'
+and deptno =30
+and sal>2450;

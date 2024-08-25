@@ -1,0 +1,6 @@
+--  LIST ALL THE SALESMEN IN DEPT NUMBER 30 AND
+-- HAVING SALARY GREATER THAN 1500
+select *
+from emp
+where job ='SALESMEN'
+and sal>1500;

@@ -1,0 +1,5 @@
+--  LIST ALL THE EMPLOYEES WHOSE COMMISSION IS
+-- NULL
+SELECT *
+from emp
+where comm=NULL;

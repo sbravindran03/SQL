@@ -1,0 +1,6 @@
+-- 10) LIST ALL THE EMPLOYEES WHO DON'T HAVE A
+-- REPORTING MANAGER IN DEPTNO 10 OR 30
+select *
+from emp
+where mgr is NULL
+and DEPTNO in (10,30);

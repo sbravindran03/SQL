@@ -2,5 +2,5 @@
 -- AND BEFORE 87
 SELECT ename, hiredate
 from emp
-where hiredate >TO_DATE('01-01-1987','DD-MM-YY')
+where hiredate >TO_DATE('01-01-1981','DD-MM-YY')
 AND hiredate < to_date('01-01-1987','DD-MM-YY');

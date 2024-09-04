@@ -1,0 +1,37 @@
+-- 1.WAQTD NUMBER OF EMPLOYEES WORKING IN EACH
+-- DEPARTEMENT EXCEPT PRESIDENT.
+-- select count(emp) ,ename
+-- from emp
+-- group by
+--  not dept="PRESIDENT";
+
+-- 2.WAQTD TOTAL SALARY NEEDED TO PAY ALL THE
+-- EMPLOYEES IN EACH JOB.
+-- select job,ename,sum(SAL) AS TOTAL
+-- from emp
+-- group by job,ename;
+-- 3.WAQTD NUMBER OF EMPLOYEEES WORKING AS
+-- MANAGER IN EACH DEPARTMENT.
+-- select job ,count(ename)  as total
+-- from emp
+-- where job ='MANAGER'
+-- group by job;
+-- WAQTD AVG SALARY NEEDED TO PAY ALL THE
+-- EMPLOYEES IN EACH DEPARTMENT EXCLUDING THE
+-- EMPLOYEES OF DEPTNO 20.
+-- select job ,avg(sal) as avgsal
+-- from emp
+-- where not deptno=20
+-- group by job;
+-- WAQTD NUMBER OF EMPLOYEES HAVING CHARACTER
+-- 'A'IN THEIR NAMES IN EACH JOB.
+-- select count(ename) ,job
+-- from emp
+-- where ename like 'A%'
+-- GROUP by job;
+
+-- WAQTD NUMBER OF EMPLOYEES AND AVG SALARY NEEDED TO PAY THE EMPLOYEES WHO SALARY IN GREATER THAN 2000 IN EACH DEPT.
+-- select job avg(sal) as avgsal
+-- from emp
+-- where sal>2000
+-- GROUP BY job;
